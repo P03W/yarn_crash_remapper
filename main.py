@@ -16,7 +16,7 @@ MAPPING_MARK_REGEX = re.compile("~\[intermediary-minecraft-[\d\w\.]+-.+]", re.IG
 
 class App:
     def __init__(self, master):
-        label = Label(master, text="Stich: A minecraft crash report converter")
+        label = Label(master, text="Minecraft crash report mapper")
         label.pack()
 
         inputFrame = Frame(master)
